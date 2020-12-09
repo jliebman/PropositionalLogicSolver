@@ -1,0 +1,9 @@
+README
+Jake Liebman
+
+To specify the sample file to read from, change the PathName variable on line 20 of Main.java:
+String pathName = "C:\\Users\\Jake Liebman\\COMS362\\proj2\\src\\edu\\iastate\\cs472\\proj2\\sample.txt";
+
+The output will print the Postfix, the Trees, and then the expected output based on the document.
+Currently, when the KB does not entail the goal, it will not print out the refutation steps.
+I know that it is due to the KB removing all of the atomic sentences but I do not have time to fix it.
